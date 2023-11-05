@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-11-05T01:59:09.897Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" version="22.0.8" etag="ENnm-iMAlHUeg0xQK310" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-05T02:05:39.181Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="ssQxuQUKkG4CnsV6iYRy" version="22.0.8" type="github">
   <diagram name="第 1 页" id="oU4-k9NnsXUqxvWrrXOD">
-    <mxGraphModel>
+    <mxGraphModel dx="929" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FoVCaE9IhGvfsktuN-2W-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="220" width="240" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="FoVCaE9IhGvfsktuN-2W-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;项目的进度规划及跟踪监控&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="341" y="240" width="178" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FoVCaE9IhGvfsktuN-2W-3" value="查看项目完成百分比" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FoVCaE9IhGvfsktuN-2W-4" value="提交项目进度" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="330" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FoVCaE9IhGvfsktuN-2W-5" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=none;noLabel=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="290" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FoVCaE9IhGvfsktuN-2W-6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=none;noLabel=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FoVCaE9IhGvfsktuN-2W-7" value="项目管理员" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="212.5" y="350" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FoVCaE9IhGvfsktuN-2W-8" value="项目成员" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FoVCaE9IhGvfsktuN-2W-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FoVCaE9IhGvfsktuN-2W-5" target="FoVCaE9IhGvfsktuN-2W-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="340" as="sourcePoint" />
+            <mxPoint x="330" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FoVCaE9IhGvfsktuN-2W-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FoVCaE9IhGvfsktuN-2W-6" target="FoVCaE9IhGvfsktuN-2W-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="350" as="sourcePoint" />
+            <mxPoint x="580" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
