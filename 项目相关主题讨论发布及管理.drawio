@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-11-05T02:54:10.124Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" version="22.0.8" etag="UHW3TeDHqumLhbejQ3hM" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-05T03:00:14.277Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="lonlcdCzdTdiYP4OYSQJ" version="22.0.8" type="github">
   <diagram name="第 1 页" id="V7HQUNlRkm2qW-p2CCN8">
-    <mxGraphModel>
+    <mxGraphModel dx="929" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="R-2aLvRWs0tlbG3WhKy7-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="170" width="256" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="R-2aLvRWs0tlbG3WhKy7-2" value="项目相关主题讨论发布及管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="190" width="198" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R-2aLvRWs0tlbG3WhKy7-3" value="编写讨论主题" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="422" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R-2aLvRWs0tlbG3WhKy7-4" value="发布讨论主题" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="422" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R-2aLvRWs0tlbG3WhKy7-5" value="对其进行讨论" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="422" y="330" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R-2aLvRWs0tlbG3WhKy7-6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=none;noLabel=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R-2aLvRWs0tlbG3WhKy7-7" value="站点内部人员" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="310" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R-2aLvRWs0tlbG3WhKy7-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R-2aLvRWs0tlbG3WhKy7-6" target="R-2aLvRWs0tlbG3WhKy7-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="280" as="sourcePoint" />
+            <mxPoint x="370" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-2aLvRWs0tlbG3WhKy7-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="R-2aLvRWs0tlbG3WhKy7-6" target="R-2aLvRWs0tlbG3WhKy7-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="390" as="sourcePoint" />
+            <mxPoint x="340" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-2aLvRWs0tlbG3WhKy7-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="R-2aLvRWs0tlbG3WhKy7-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="270" as="sourcePoint" />
+            <mxPoint x="380" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
