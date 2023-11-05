@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2023-11-05T03:36:28.838Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" version="22.0.8" etag="ghfPaP0IDyQ-IfShuzPw" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-05T03:40:44.461Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="9gyKMU7j_X2C79JWj5Xm" version="22.0.8" type="github">
   <diagram name="第 1 页" id="NVls9kdwg5W1k9StP5zO">
-    <mxGraphModel>
+    <mxGraphModel dx="929" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HYl5Pxz1trzNldL5KOlN-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="217" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="HYl5Pxz1trzNldL5KOlN-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;项目网络会议白板系统&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="170" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HYl5Pxz1trzNldL5KOlN-3" value="邀请讨论人员" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HYl5Pxz1trzNldL5KOlN-4" value="交流讨论" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HYl5Pxz1trzNldL5KOlN-5" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=none;noLabel=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="230" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HYl5Pxz1trzNldL5KOlN-6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=none;noLabel=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="215" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HYl5Pxz1trzNldL5KOlN-7" value="项目管理人员" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="290" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HYl5Pxz1trzNldL5KOlN-8" value="项目成员" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="275" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HYl5Pxz1trzNldL5KOlN-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HYl5Pxz1trzNldL5KOlN-5" target="HYl5Pxz1trzNldL5KOlN-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="270" as="sourcePoint" />
+            <mxPoint x="310" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYl5Pxz1trzNldL5KOlN-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HYl5Pxz1trzNldL5KOlN-5" target="HYl5Pxz1trzNldL5KOlN-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="390" as="sourcePoint" />
+            <mxPoint x="210" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYl5Pxz1trzNldL5KOlN-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HYl5Pxz1trzNldL5KOlN-6" target="HYl5Pxz1trzNldL5KOlN-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="430" as="sourcePoint" />
+            <mxPoint x="560" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
